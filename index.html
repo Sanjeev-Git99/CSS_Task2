@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .straight_part{
+            border: 25px solid black;
+            margin-left: 320px;
+            margin-right: 2500px;
+            border-radius: 30px 30px 0px 0px;
+            height: 50px;
+        }
+        .basepart{
+            border: 25px solid black;
+            background-color: black;
+            margin-left: 250px;
+            margin-right: 200px;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 150px;
+            border-bottom-left-radius: 25px;
+            height: 20px;
+            width: 200px;
+        }
+        .middlepart{
+            border: 15px solid black;
+            background-color: black;
+            margin-left: 250px;
+            margin-right: 200px;
+            height: 20px;
+            width: 200px;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+        }
+        .top_part {
+            border: 20px solid black;
+            background-color: black;
+            margin-left: 250px;
+            margin-right: 200px;
+            border-top-left-radius: 25px;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+            height: 20px;
+            width: 200px; 
+        }
+        .line1{
+            border: 2px solid white;
+            background-color: white;
+            height: 10px;
+            width: 33px;
+            border-radius: 10px 10px 10px 10px;
+            margin-left: 327px;
+            margin-top: -250px;
+        }
+        .line2{
+            border: 2px solid white;
+            background-color: white;
+            height: 10px;
+            width: 33px;
+            border-radius: 10px 10px 10px 10px;
+            margin-left: 327px;
+            margin-top: 6px;
+        }
+        .line3{
+            border: 2px solid white;
+            background-color: white;
+            height: 10px;
+            width: 33px;
+            border-radius: 10px 10px 10px 10px;
+            margin-left: 327px;
+            margin-top: 6px;
+        }
+        .circle {
+            border: 2px solid red;
+            background-color: red;
+            height: 10px;
+            width: 8px;
+            border-radius: 10px 10px 10px 10px;
+            margin-left: 340px;
+            margin-top: -32px;
+        }
+        .stand {
+        border: 2px solid black;
+        background-color: black;
+        height: 500px;
+        width: 10px;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        margin-left: 80px;
+        margin-top: 500px;
+      }
+      .orange {
+        border: 2px solid black;
+        background-color: orange;
+        height: 50px;
+        width: 220px;
+        margin-left: 108px;
+        margin-top: -450px;
+      }
+      .white {
+        border: 2px solid black;
+        background-color: white;
+        height: 50px;
+        width: 220px;
+        margin-left: 108px;
+      }
+      .green {
+        border: 2px solid black;
+        background-color: green;
+        height: 50px;
+        width: 220px;
+        margin-left: 108px;
+      }
+      .circle1 {
+        border: 2px solid blue;
+        background-color: blue;
+        height: 50px;
+        width: 50px;
+        border-radius: 50px 50px 50px 50px;
+        margin-top: -106px;
+        margin-left: 187px;
+      }
+      .flagname {
+        margin-left: 120px;
+        margin-top: -230px;
+      }
+      .line11 {
+        border: 2px solid black;
+        width: 12px;
+        margin-left: 93px;
+        margin-top: 110px;
+      }
+      .line22 {
+        border: 2px solid black;
+        width: 12px;
+        margin-left: 93px;
+        margin-top: 105px;
+      }
+      .p1 {
+        border: 2px solid black;
+        background-color: bisque;
+        height: 40px;
+        width: 175px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        margin-top: 350px;
+      }
+      .p2 {
+        border: 2px solid black;
+        background-color: bisque;
+        height: 40px;
+        width: 100px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        margin-top: -85px;
+        margin-left: 38px;
+      }
+      .traffic1 {
+        border: 2px solid black;
+        background-color: black;
+        height: 200px;
+        width: 70px;
+        border-radius: 50px 50px 50px 50px;
+        margin-top: 200px;
+        margin-left: 100px;
+      }
+      .redsignal {
+        border: 2px solid black;
+        background-color: red;
+        height: 40px;
+        width: 40px;
+        border-radius: 50px 50px 50px 50px;
+        margin-left: 115px;
+        margin-top: -180px;
+      }
+      .yellowsignal {
+        border: 2px solid black;
+        background-color: yellow;
+        height: 40px;
+        width: 40px;
+        border-radius: 50px 50px 50px 50px;
+        margin-left: 115px;
+        margin-top: 15px;
+      }
+      .greensignal{
+        border: 2px solid black;
+        background-color: green;
+        height: 40px;
+        width: 40px;
+        border-radius: 50px 50px 50px 50px;
+        margin-left: 115px;
+        margin-top: 15px;
+      }
+      .traffic5{
+        border: 2px solid black;
+        background-color: black;
+        height: 100px;
+        width: 9px;
+        border-radius: 50px 50px 50px 50px;
+        margin-left: 132px;
+        margin-top: 15px;
+      }
+      .trafficlight{
+        margin-top: -360px;
+      }
+        
+    </style>
+</head>
+<body>
+    
+    <div class="straight_part"></div>
+    <div class="basepart"></div>
+    <div class="middlepart"></div>
+    <div class="top_part"></div>
+    <div class="line1"></div>
+    <div class="line2"></div>
+    <div class="line3"></div>
+    <div class="circle"></div>
+    <div class="stand"></div>
+    <div class="orange"></div>
+    <div class="white"></div>
+    <div class="green"></div>
+    <div class="circle1"></div>
+
+    <h1 class="flagname">Indian Flag</h1>
+    <div class="line11"></div>
+    <div class="line22"></div>
+    <div class="p1"></div>
+    <div class="p2"></div>
+    <div class="traffic1"></div>
+    <div class="redsignal"></div>
+    <div class="yellowsignal"></div>
+    <div class="greensignal"></div>
+    <div class="traffic5"></div>
+
+    <h1 class="trafficlight">Traffic Signal Light</h1>
+    </div>
+
+</body>
+</html>
